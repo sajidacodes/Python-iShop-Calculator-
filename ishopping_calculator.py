@@ -7,7 +7,7 @@ if basket1 >0:
  print("let's get to counting them....")
  for basket in range(1,basket1+1):
 
-   name_basket = input(f"Please tell me the name of the item number {basket}")
+   name_basket = input(f"Please tell me the name of the item number {basket}\n")
    basket_items.append(name_basket)
    price = float(input(f"What is the price of {name_basket} \n$"))
    much_basket.append(price)
@@ -36,5 +36,6 @@ else:
     
 
  
+
 
 
