@@ -16,9 +16,9 @@ if basket1 >0:
    print("--------")
    for ii in basket_items:
      print(f"-{ii}")
-     print("--------")
+   print("--------")
  else:
-  print("Press Enter to exit...")
+  input("Press Enter to exit...")
  much = input("Would you like to see how much it'll cost? (Yes/No)\n").lower()
  if much == "yes":
   print("--------")
@@ -26,7 +26,7 @@ if basket1 >0:
   print(f"${sum(much_basket):.2f}")
   print("--------")
  else:
-  print("Press Enter to exit...")
+  input("Press Enter to exit...")
 else:
   print("It seems you don't want to buy.")
 
@@ -36,4 +36,5 @@ else:
     
 
  
+
 
